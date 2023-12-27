@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'UN-Abhaya';
+    src: url('UN-Abhaya.eot');
+    src: local('UN-Abhaya'),
+        url('UN-Abhaya.eot?#iefix') format('embedded-opentype'),
+        url('UN-Abhaya.woff2') format('woff2'),
+        url('UN-Abhaya.woff') format('woff'),
+        url('UN-Abhaya.svg#UN-Abhaya') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Davasa';
+    src: url('UN-Davasa.eot');
+    src: local('UN-Davasa'),
+        url('UN-Davasa.eot?#iefix') format('embedded-opentype'),
+        url('UN-Davasa.woff2') format('woff2'),
+        url('UN-Davasa.woff') format('woff'),
+        url('UN-Davasa.svg#UN-Davasa') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Abhaya';
+    src: url('UN-AbhayaBold.eot');
+    src: local('UN-Abhaya Bold'), local('UN-AbhayaBold'),
+        url('UN-AbhayaBold.eot?#iefix') format('embedded-opentype'),
+        url('UN-AbhayaBold.woff2') format('woff2'),
+        url('UN-AbhayaBold.woff') format('woff'),
+        url('UN-AbhayaBold.svg#UN-AbhayaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Alakamanda';
+    src: url('UN-Alakamanda.eot');
+    src: local('UN-Alakamanda'),
+        url('UN-Alakamanda.eot?#iefix') format('embedded-opentype'),
+        url('UN-Alakamanda.woff2') format('woff2'),
+        url('UN-Alakamanda.woff') format('woff'),
+        url('UN-Alakamanda.svg#UN-Alakamanda') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Basuru';
+    src: url('UN-Basuru.eot');
+    src: local('UN-Basuru'),
+        url('UN-Basuru.eot?#iefix') format('embedded-opentype'),
+        url('UN-Basuru.woff2') format('woff2'),
+        url('UN-Basuru.woff') format('woff'),
+        url('UN-Basuru.svg#UN-Basuru') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Arundathee';
+    src: url('UN-Arundathee.eot');
+    src: local('UN-Arundathee'),
+        url('UN-Arundathee.eot?#iefix') format('embedded-opentype'),
+        url('UN-Arundathee.woff2') format('woff2'),
+        url('UN-Arundathee.woff') format('woff'),
+        url('UN-Arundathee.svg#UN-Arundathee') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Bindumathi';
+    src: url('UN-Bindumathi.eot');
+    src: local('UN-Bindumathi'),
+        url('UN-Bindumathi.eot?#iefix') format('embedded-opentype'),
+        url('UN-Bindumathi.woff2') format('woff2'),
+        url('UN-Bindumathi.woff') format('woff'),
+        url('UN-Bindumathi.svg#UN-Bindumathi') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Dharanee';
+    src: url('UN-Dharanee.eot');
+    src: local('UN-Dharanee'),
+        url('UN-Dharanee.eot?#iefix') format('embedded-opentype'),
+        url('UN-Dharanee.woff2') format('woff2'),
+        url('UN-Dharanee.woff') format('woff'),
+        url('UN-Dharanee.svg#UN-Dharanee') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Gemunu';
+    src: url('UN-Gemunu.eot');
+    src: local('UN-Gemunu'),
+        url('UN-Gemunu.eot?#iefix') format('embedded-opentype'),
+        url('UN-Gemunu.woff2') format('woff2'),
+        url('UN-Gemunu.woff') format('woff'),
+        url('UN-Gemunu.svg#UN-Gemunu') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Ganganee';
+    src: url('UN-Ganganee.eot');
+    src: local('UN-Ganganee'),
+        url('UN-Ganganee.eot?#iefix') format('embedded-opentype'),
+        url('UN-Ganganee.woff2') format('woff2'),
+        url('UN-Ganganee.woff') format('woff'),
+        url('UN-Ganganee.svg#UN-Ganganee') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Disapamok';
+    src: url('UN-Disapamok.eot');
+    src: local('UN-Disapamok'),
+        url('UN-Disapamok.eot?#iefix') format('embedded-opentype'),
+        url('UN-Disapamok.woff2') format('woff2'),
+        url('UN-Disapamok.woff') format('woff'),
+        url('UN-Disapamok.svg#UN-Disapamok') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Derana';
+    src: url('UN-Derana.eot');
+    src: local('UN-Derana'),
+        url('UN-Derana.eot?#iefix') format('embedded-opentype'),
+        url('UN-Derana.woff2') format('woff2'),
+        url('UN-Derana.woff') format('woff'),
+        url('UN-Derana.svg#UN-Derana') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Imanee';
+    src: url('UN-Imanee.eot');
+    src: local('UN-Imanee'),
+        url('UN-Imanee.eot?#iefix') format('embedded-opentype'),
+        url('UN-Imanee.woff2') format('woff2'),
+        url('UN-Imanee.woff') format('woff'),
+        url('UN-Imanee.svg#UN-Imanee') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Gurulugomi';
+    src: url('UN-Gurulugomi.eot');
+    src: local('UN-Gurulugomi'),
+        url('UN-Gurulugomi.eot?#iefix') format('embedded-opentype'),
+        url('UN-Gurulugomi.woff2') format('woff2'),
+        url('UN-Gurulugomi.woff') format('woff'),
+        url('UN-Gurulugomi.svg#UN-Gurulugomi') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Indeevaree';
+    src: url('UN-Indeevaree.eot');
+    src: local('UN-Indeevaree'),
+        url('UN-Indeevaree.eot?#iefix') format('embedded-opentype'),
+        url('UN-Indeevaree.woff2') format('woff2'),
+        url('UN-Indeevaree.woff') format('woff'),
+        url('UN-Indeevaree.svg#UN-Indeevaree') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Malithi';
+    src: url('UN-Malithi.eot');
+    src: local('UN-Malithi'),
+        url('UN-Malithi.eot?#iefix') format('embedded-opentype'),
+        url('UN-Malithi.woff2') format('woff2'),
+        url('UN-Malithi.woff') format('woff'),
+        url('UN-Malithi.svg#UN-Malithi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Isiwara';
+    src: url('UN-Isiwara.eot');
+    src: local('UN-Isiwara'),
+        url('UN-Isiwara.eot?#iefix') format('embedded-opentype'),
+        url('UN-Isiwara.woff2') format('woff2'),
+        url('UN-Isiwara.woff') format('woff'),
+        url('UN-Isiwara.svg#UN-Isiwara') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Rajantha';
+    src: url('UN-Rajantha.eot');
+    src: local('UN-Rajantha'),
+        url('UN-Rajantha.eot?#iefix') format('embedded-opentype'),
+        url('UN-Rajantha.woff2') format('woff2'),
+        url('UN-Rajantha.woff') format('woff'),
+        url('UN-Rajantha.svg#UN-Rajantha') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Sandhyanee';
+    src: url('UN-Sandhyanee.eot');
+    src: local('UN-Sandhyanee'),
+        url('UN-Sandhyanee.eot?#iefix') format('embedded-opentype'),
+        url('UN-Sandhyanee.woff2') format('woff2'),
+        url('UN-Sandhyanee.woff') format('woff'),
+        url('UN-Sandhyanee.svg#UN-Sandhyanee') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Samantha';
+    src: url('UN-Samantha.eot');
+    src: local('UN-Samantha'),
+        url('UN-Samantha.eot?#iefix') format('embedded-opentype'),
+        url('UN-Samantha.woff2') format('woff2'),
+        url('UN-Samantha.woff') format('woff'),
+        url('UN-Samantha.svg#UN-Samantha') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UN-Rashmi';
+    src: url('UN-Rashmi.eot');
+    src: local('UN-Rashmi'),
+        url('UN-Rashmi.eot?#iefix') format('embedded-opentype'),
+        url('UN-Rashmi.woff2') format('woff2'),
+        url('UN-Rashmi.woff') format('woff'),
+        url('UN-Rashmi.svg#UN-Rashmi') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

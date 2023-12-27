@@ -5,57 +5,456 @@ Created by Prasad Madhuranga @ 2023 DEC
 Created for New Websites.
 *Tested */
 
-/* >> Sinhala Fonts << */
-@font-face {
-    font-family: SI_ARNDT;
-    src: url("../fonts/UN_Arundathee.ttf");
-  }
-  @font-face {
-    font-family: SI_INDWR;
-    src: url("../fonts/UN_Indeewaree.ttf");
-  }
-  @font-face {
-    font-family: SI_BNDMT;
-    src: url("../fonts/UN_Bindumathi.ttf");
-  }
-  @font-face {
-    font-family: SI_GRLGM;
-    src: url("../fonts/UN_Gurulugomi.ttf");
-  }
-
-
-  /* >> English Fonts << */
-  @font-face {
-    font-family: Google_Sans_400;
-    src: url("../fonts/Google_Sans-400-100_0-0_0.ttf");
-  }
-  @font-face {
-    font-family: Google_2015;
-    src: url("../fonts/Google_Sep_2015.ttf");
-  }
-  @font-face {
-    font-family: PLNTKM;
-    src: url("../fonts/Planet_Kosmos.TTF");
-  }
-  @font-face {
-    font-family: AQUA;
-    src: url("../fonts/Aquatico.otf");
-  }
+/* Version 2 - Revision 1 : Previous Font types removed & New Font types added as WOFF/WOFF2 .
+Now Web index should be faster than previous version. */
 
 /* ~~~ Link to HTML ~~~ */
-.indexspan1{
-    font-family: SI_ARNDT;
-  }
-.headersi1{
-    font-family: SI_ARNDT;
-}
-.headersi2{
-    font-family: SI_GRLGM;
+.indexspan1 {
+  font-family: UN-Arundathee;
 }
 
-.navbarlistsi{
-    font-family: SI_BNDMT;
+.headersi1 {
+  font-family: UN-Arundathee;
 }
-.navbarlisten{
-    font-family: AQUA;
+
+.headersi2 {
+  font-family: UN-Gurulugomi;
+}
+
+.navbarlistsi {
+  font-family: UN-Bindumathi;
+}
+
+.navbarlisten {
+  font-family: Product Sans;
+}
+
+.indexbtnsi {
+  font-family: UN-Arundathee;
+}
+
+.indexbtnen {
+  font-family: 'Google September 2015';
+}
+
+/* >>> SINHALA UNICODE FONTS AS WEB FONTS <<< */
+@font-face {
+  font-family: 'UN-Abhaya';
+  src: url('../fonts/UN-Abhaya.eot');
+  src: local('UN-Abhaya'),
+    url('../fonts/UN-Abhaya.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Abhaya.woff2') format('woff2'),
+    url('../fonts/UN-Abhaya.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Davasa';
+  src: url('../fonts/UN-Davasa.eot');
+  src: local('UN-Davasa'),
+    url('../fonts/UN-Davasa.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Davasa.woff2') format('woff2'),
+    url('../fonts/UN-Davasa.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Abhaya';
+  src: url('../fonts/UN-AbhayaBold.eot');
+  src: local('UN-Abhaya Bold'), local('UN-AbhayaBold'),
+    url('../fonts/UN-AbhayaBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-AbhayaBold.woff2') format('woff2'),
+    url('../fonts/UN-AbhayaBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Alakamanda';
+  src: url('../fonts/UN-Alakamanda.eot');
+  src: local('UN-Alakamanda'),
+    url('../fonts/UN-Alakamanda.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Alakamanda.woff2') format('woff2'),
+    url('../fonts/UN-Alakamanda.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Basuru';
+  src: url('../fonts/UN-Basuru.eot');
+  src: local('UN-Basuru'),
+    url('../fonts/UN-Basuru.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Basuru.woff2') format('woff2'),
+    url('../fonts/UN-Basuru.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Arundathee';
+  src: url('../fonts/UN-Arundathee.eot');
+  src: local('UN-Arundathee'),
+    url('../fonts/UN-Arundathee.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Arundathee.woff2') format('woff2'),
+    url('../fonts/UN-Arundathee.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Bindumathi';
+  src: url('../fonts/UN-Bindumathi.eot');
+  src: local('UN-Bindumathi'),
+    url('../fonts/UN-Bindumathi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Bindumathi.woff2') format('woff2'),
+    url('../fonts/UN-Bindumathi.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Dharanee';
+  src: url('../fonts/UN-Dharanee.eot');
+  src: local('UN-Dharanee'),
+    url('../fonts/UN-Dharanee.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Dharanee.woff2') format('woff2'),
+    url('../fonts/UN-Dharanee.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Gemunu';
+  src: url('../fonts/UN-Gemunu.eot');
+  src: local('UN-Gemunu'),
+    url('../fonts/UN-Gemunu.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Gemunu.woff2') format('woff2'),
+    url('../fonts/UN-Gemunu.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Ganganee';
+  src: url('../fonts/UN-Ganganee.eot');
+  src: local('UN-Ganganee'),
+    url('../fonts/UN-Ganganee.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Ganganee.woff2') format('woff2'),
+    url('../fonts/UN-Ganganee.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Disapamok';
+  src: url('../fonts/UN-Disapamok.eot');
+  src: local('UN-Disapamok'),
+    url('../fonts/UN-Disapamok.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Disapamok.woff2') format('woff2'),
+    url('../fonts/UN-Disapamok.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Derana';
+  src: url('../fonts/UN-Derana.eot');
+  src: local('UN-Derana'),
+    url('../fonts/UN-Derana.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Derana.woff2') format('woff2'),
+    url('../fonts/UN-Derana.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Imanee';
+  src: url('../fonts/UN-Imanee.eot');
+  src: local('UN-Imanee'),
+    url('../fonts/UN-Imanee.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Imanee.woff2') format('woff2'),
+    url('../fonts/UN-Imanee.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Gurulugomi';
+  src: url('../fonts/UN-Gurulugomi.eot');
+  src: local('UN-Gurulugomi'),
+    url('../fonts/UN-Gurulugomi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Gurulugomi.woff2') format('woff2'),
+    url('../fonts/UN-Gurulugomi.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Indeevaree';
+  src: url('../fonts/UN-Indeevaree.eot');
+  src: local('UN-Indeevaree'),
+    url('../fonts/UN-Indeevaree.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Indeevaree.woff2') format('woff2'),
+    url('../fonts/UN-Indeevaree.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Malithi';
+  src: url('../fonts/UN-Malithi.eot');
+  src: local('UN-Malithi'),
+    url('../fonts/UN-Malithi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Malithi.woff2') format('woff2'),
+    url('../fonts/UN-Malithi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Isiwara';
+  src: url('../fonts/UN-Isiwara.eot');
+  src: local('UN-Isiwara'),
+    url('../fonts/UN-Isiwara.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Isiwara.woff2') format('woff2'),
+    url('../fonts/UN-Isiwara.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Rajantha';
+  src: url('../fonts/UN-Rajantha.eot');
+  src: local('UN-Rajantha'),
+    url('../fonts/UN-Rajantha.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Rajantha.woff2') format('woff2'),
+    url('../fonts/UN-Rajantha.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Sandhyanee';
+  src: url('../fonts/UN-Sandhyanee.eot');
+  src: local('UN-Sandhyanee'),
+    url('../fonts/UN-Sandhyanee.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Sandhyanee.woff2') format('woff2'),
+    url('../fonts/UN-Sandhyanee.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Samantha';
+  src: url('../fonts/UN-Samantha.eot');
+  src: local('UN-Samantha'),
+    url('../fonts/UN-Samantha.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Samantha.woff2') format('woff2'),
+    url('../fonts/UN-Samantha.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UN-Rashmi';
+  src: url('../fonts/UN-Rashmi.eot');
+  src: local('UN-Rashmi'),
+    url('../fonts/UN-Rashmi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UN-Rashmi.woff2') format('woff2'),
+    url('../fonts/UN-Rashmi.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* >>> ENGLISH UNICODE FONTS AS WEB FONTS <<< */
+@font-face {
+  font-family: 'Product Sans Black';
+  src: url('../fonts/ProductSans-Black.eot');
+  src: local('Product Sans Black'), local('ProductSans-Black'),
+    url('../fonts/ProductSans-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-Black.woff2') format('woff2'),
+    url('../fonts/ProductSans-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Bold';
+  src: url('../fonts/ProductSans-Bold.eot');
+  src: local('Product Sans Bold'), local('ProductSans-Bold'),
+    url('../fonts/ProductSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-Bold.woff2') format('woff2'),
+    url('../fonts/ProductSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Black Italic';
+  src: url('../fonts/ProductSans-BlackItalic.eot');
+  src: local('Product Sans Black Italic'), local('ProductSans-BlackItalic'),
+    url('../fonts/ProductSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-BlackItalic.woff2') format('woff2'),
+    url('../fonts/ProductSans-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Bold Italic';
+  src: url('../fonts/ProductSans-BoldItalic.eot');
+  src: local('Product Sans Bold Italic'), local('ProductSans-BoldItalic'),
+    url('../fonts/ProductSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-BoldItalic.woff2') format('woff2'),
+    url('../fonts/ProductSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Italic';
+  src: url('../fonts/ProductSans-Italic.eot');
+  src: local('Product Sans Italic'), local('ProductSans-Italic'),
+    url('../fonts/ProductSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-Italic.woff2') format('woff2'),
+    url('../fonts/ProductSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Light Italic';
+  src: url('../fonts/ProductSans-LightItalic.eot');
+  src: local('Product Sans Light Italic'), local('ProductSans-LightItalic'),
+    url('../fonts/ProductSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-LightItalic.woff2') format('woff2'),
+    url('../fonts/ProductSans-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('../fonts/ProductSans-Regular.eot');
+  src: local('Product Sans'), local('ProductSans-Regular'),
+    url('../fonts/ProductSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-Regular.woff2') format('woff2'),
+    url('../fonts/ProductSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Light';
+  src: url('../fonts/ProductSans-Light.eot');
+  src: local('Product Sans Light'), local('ProductSans-Light'),
+    url('../fonts/ProductSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-Light.woff2') format('woff2'),
+    url('../fonts/ProductSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Medium Italic';
+  src: url('../fonts/ProductSans-MediumItalic.eot');
+  src: local('Product Sans Medium Italic'), local('ProductSans-MediumItalic'),
+    url('../fonts/ProductSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-MediumItalic.woff2') format('woff2'),
+    url('../fonts/ProductSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Medium';
+  src: url('../fonts/ProductSans-Medium.eot');
+  src: local('Product Sans Medium'), local('ProductSans-Medium'),
+    url('../fonts/ProductSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-Medium.woff2') format('woff2'),
+    url('../fonts/ProductSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Thin';
+  src: url('../fonts/ProductSans-Thin.eot');
+  src: local('Product Sans Thin'), local('ProductSans-Thin'),
+    url('../fonts/ProductSans-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-Thin.woff2') format('woff2'),
+    url('../fonts/ProductSans-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Thin Italic';
+  src: url('../fonts/ProductSans-ThinItalic.eot');
+  src: local('Product Sans Thin Italic'), local('ProductSans-ThinItalic'),
+    url('../fonts/ProductSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProductSans-ThinItalic.woff2') format('woff2'),
+    url('../fonts/ProductSans-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans Regular';
+  src: url('../fonts/GoogleSans-Regular.eot');
+  src: local('Google Sans Regular'), local('GoogleSans-Regular'),
+    url('../fonts/GoogleSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GoogleSans-Regular.woff2') format('woff2'),
+    url('../fonts/GoogleSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google September 2015';
+  src: url('../fonts/GoogleSeptember2015.eot');
+  src: local('Google September 2015 Regular'), local('GoogleSeptember2015'),
+    url('../fonts/GoogleSeptember2015.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GoogleSeptember2015.woff2') format('woff2'),
+    url('../fonts/GoogleSeptember2015.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
