@@ -28,6 +28,16 @@ Now Web index should be faster than previous version. */
 .navbarlisten {
   font-family: Product Sans;
 }
+.navbarlist01{
+  display: inline;
+}
+.navbarlist01:hover{
+  background-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.35);
+  transition-duration: 0.5s;
+  border-radius: 1px;
+
+}
 
 .indexbtnsi {
   font-family: UN-Arundathee;

@@ -87,7 +87,7 @@ h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid rgba(0, 217, 255, 0.75);
   padding-bottom: 6px;
 }
 
@@ -117,7 +117,7 @@ h6 {
 
 #header .social-links a:hover {
   /* background: #0563bb; */
-  color: #0563bb;
+  color: rgba(0, 132, 255, 0.849);
 }
 
 @media (max-width: 992px) {
@@ -148,7 +148,8 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
 }
 
 #header.header-top .social-links,
@@ -235,7 +236,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #00ccff;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -287,7 +288,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.75);
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -309,7 +310,7 @@ h6 {
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.250);
+  border: 1px solid #00ccff;
   background-color: rgba(17, 34, 49, 0.466);
   border-radius: 10px;
 }
@@ -349,7 +350,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.75);
   padding: 30px;
   border-radius: 15px;
 }
@@ -365,7 +366,7 @@ section .container {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -373,15 +374,15 @@ section .container {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "UN-Gurulugomi";
+  font-family: "UN-Rashmi";
 }
 
 .section-title h2::after {
   content: "";
   width: 120px;
-  height: 1px;
+  height: 1.5px;
   display: inline-block;
-  background: #4ceb95;
+  background: #00d9ff;
   margin: 4px 10px;
 }
 
@@ -391,7 +392,7 @@ section .container {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'UN-Malithi';
+  font-family: 'UN-Imanee';
   color: #fff;
 }
 
@@ -443,6 +444,7 @@ section .container {
   position: relative;
   text-align: center;
   background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
 }
 
 .counts .count-box i {
@@ -453,7 +455,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: rgb(0, 204, 255);
   border-radius: 50px;
   line-height: 0;
 }
@@ -468,7 +470,7 @@ section .container {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "UN-Isiwara";
+  font-family: "UN-Derana";
   font-size: 14px;
 }
 
@@ -488,7 +490,7 @@ section .container {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "UN-Rajantha";
+  font-family: "UN-Malithi";
   color: #fff;
 }
 
@@ -505,7 +507,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #18d26e;
+  background-color: #00ccff;
 }
 
 /*--------------------------------------------------------------
@@ -515,7 +517,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgb(0, 0, 0,0.5);
   transition: ease-in-out 0.3s;
 }
 
@@ -535,7 +537,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.125);
 }
 
 /*--------------------------------------------------------------
@@ -552,7 +554,11 @@ section .container {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.12);
+  border: 6px solid rgba(255, 255, 255, 0.125);
+}
+.testimonials .testimonial-item .testimonial-img:hover{
+  background-color: #00ccff;
+  transition:ease-in-out 0.5s;
 }
 
 .testimonials .testimonial-item h3 {
@@ -597,6 +603,10 @@ section .container {
   position: relative;
   z-index: 1;
 }
+.testimonials .testimonial-item p:hover{
+  background: #032e4783;
+  transition: ease-in-out 0.5s;
+}
 
 .testimonials .swiper-pagination {
   margin-top: 20px;
@@ -611,7 +621,8 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #00e1ff;
+  transition: ease-in-out 0.5s;
 }
 
 /*--------------------------------------------------------------
@@ -628,7 +639,7 @@ section .container {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgb(1, 88, 170);
   position: relative;
 }
 
@@ -649,6 +660,7 @@ section .container {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 3px;
 }
 
 .resume .resume-item ul {
@@ -690,7 +702,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #18d26e;
+  background: rgb(0, 195, 255);
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -735,7 +747,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
+  background: rgba(255, 255, 255, 0.25);
   border-color: #18d26e;
   border-radius: 15px;
 }
@@ -999,10 +1011,14 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
 }
+.contact .info-box:hover{
+  background-color: rgba(216, 148, 0, 0.63);
+  transition: ease-in-out 0.5s;
+}
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #00ccff;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1011,7 +1027,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
@@ -1039,7 +1055,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #189dd2;
 }
 
 .contact .php-email-form {
