@@ -63,15 +63,36 @@
   "shortcuts": [
     {
       "name": "Home Page",
-      "url": "/en.home.html"
+      "url": "/en.home.html",
+      "icons": [
+        {
+          "src": "assets/img/pwa/shortcut.home.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
     },
     {
       "name": "මුල් පිටුව",
-      "url": "/si.home.html"
+      "url": "/si.home.html",
+      "icons": [
+        {
+          "src": "assets/img/pwa/shortcut.home.si.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
     },
     {
       "name": "Index Page",
-      "url": "/index.html"
+      "url": "/index.html",
+      "icons": [
+        {
+          "src": "assets/img/pwa/shortcut.index.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
     }
   ],
   "screenshots": [
