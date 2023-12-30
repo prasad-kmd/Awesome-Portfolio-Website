@@ -57,6 +57,7 @@
 	<link rel="stylesheet" href="assets/css/ajlkn_main.css" />
 	<link rel="stylesheet" href="assets/css/index.css" />
 	<link rel="stylesheet" href="assets/css/custom.css" />
+<script>navigator.serviceWorker.register("sw.js")</script> 
 	<link rel="stylesheet" href="assets/css/font.css"  />
 </head>
 
@@ -131,6 +132,12 @@
 
 	<!-- Scripts -->
 	<script async src="assets/js/ajlkn_main.js"></script>
+	<!-- Service Worker for PWA -->
+	<script>
+		if('serviceWorker' in navigator) {
+		  navigator.serviceWorker.register('/service.worker.js', { scope: '/' });
+		}
+		</script>
 </body>
 
 </html>
