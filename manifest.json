@@ -105,5 +105,10 @@
   "related_applications": [{
     "platform": "webapp",
     "url": "https://prasad-kmd.vercel.app/manifest.json"
-  }]
+  }],
+  "scope": "https://prasad-kmd.vercel.app",
+  "dir": "ltr",
+  "scope_extensions": [
+    {"origin": "*.prasad-kmd.vercel.app"}
+  ]
 }
