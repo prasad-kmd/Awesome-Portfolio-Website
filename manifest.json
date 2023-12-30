@@ -8,6 +8,20 @@
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#ffffff",
+  "categories": [
+    "books",
+    "education",
+    "entertainment",
+    "games",
+    "lifestyle",
+    "magazines",
+    "news",
+    "personalization",
+    "photo",
+    "productivity",
+    "security",
+    "utilities"
+  ],
   "description": "PRASAD MADHURANGA'S OFFICIAL INDEX WEBSITE which provides you information about him. Categories:Web Developer,Web Designer,Content Writer,Blog Writer,Photographer,Draughtsperson,Graphic Designer, Author: Prasad Madhuranga, Designer: PRASAD.KMD™ 2023 , PRASAD.KMD™ - INFINTY IMAGINE WITH SINHAGIRI™ VISUAL STUDIO",
   "icons": [
     {
@@ -82,5 +96,14 @@
       "form_factor": "wide",
       "label": "Homescreen of Prasad Madhuranga's Webpage in Sinhala"
     }
-  ]
+  ],
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [{
+    "platform": "webapp",
+    "url": "https://prasad-kmd.vercel.app/manifest.json"
+  }]
 }
