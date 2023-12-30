@@ -875,6 +875,12 @@
   <!-- Template Main JS File -->
   <script async src="assets/js/main.js"></script>
   <script async src="assets/js/home.js"></script>
+  <!-- Service Worker for PWA -->
+	<script>
+		if('serviceWorker' in navigator) {
+		  navigator.serviceWorker.register('assets/js/service.worker.js', { scope: '/assets/js/' });
+		}
+		</script>
 
 </body>
 
