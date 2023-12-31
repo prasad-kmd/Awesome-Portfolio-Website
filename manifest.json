@@ -136,16 +136,14 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://prasad-kmd.vercel.app/manifest.json",
-      "url": "https://prasad-kmd.github.io/Awesome-Portfolio-Website/manifest.json"
+      "url": "https://prasad-kmd.vercel.app/manifest.json"
     }
   ],
   "scope": "/",
   "dir": "ltr",
   "scope_extensions": [
     {
-      "origin": "*.prasad-kmd.vercel.app",
-      "origin": "*.prasad-kmd.github.io"
+      "origin": "*.prasad-kmd.vercel.app"
     }
   ]
 }
