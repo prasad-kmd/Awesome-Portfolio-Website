@@ -1,7 +1,9 @@
+// Created & Designed by Prasad Madhuranga @2023
+
 // Service worker for https://prasad-kmd.vercel.app
 
 // Cache name
-const cacheName = 'prasad-kmd-cache-v1';
+const cacheName = 'pm-personal-web-v1';
 
 // Files to cache
 const filesToCache = [

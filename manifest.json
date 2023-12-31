@@ -27,37 +27,44 @@
     {
       "src": "assets/img/pwa/pwa48.png",
       "sizes": "48x48",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/img/pwa/pwa72.png",
       "sizes": "72x72",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/img/pwa/pwa96.png",
       "sizes": "96x96",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/img/pwa/pwa144.png",
       "sizes": "144x144",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/img/pwa/pwa168.png",
       "sizes": "168x168",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/img/pwa/pwa192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "assets/img/pwa/pwa512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "shortcuts": [
@@ -127,7 +134,7 @@
     "platform": "webapp",
     "url": "https://prasad-kmd.vercel.app/manifest.json"
   }],
-  "scope": "https://prasad-kmd.vercel.app",
+  "scope": "/",
   "dir": "ltr",
   "scope_extensions": [
     {"origin": "*.prasad-kmd.vercel.app"}
