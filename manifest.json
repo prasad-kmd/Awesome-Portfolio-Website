@@ -133,13 +133,19 @@
     "window-controls-overlay"
   ],
   "prefer_related_applications": false,
-  "related_applications": [{
-    "platform": "webapp",
-    "url": "https://prasad-kmd.vercel.app/manifest.json"
-  }],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://prasad-kmd.vercel.app/manifest.json",
+      "url": "https://prasad-kmd.github.io/Awesome-Portfolio-Website/manifest.json"
+    }
+  ],
   "scope": "/",
   "dir": "ltr",
   "scope_extensions": [
-    {"origin": "*.prasad-kmd.vercel.app"}
+    {
+      "origin": "*.prasad-kmd.vercel.app",
+      "origin": "*.prasad-kmd.github.io"
+    }
   ]
 }
